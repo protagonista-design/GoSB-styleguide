@@ -151,7 +151,7 @@ xTypography
 
 -------------------------------- */
 h1, h2 {
-  font-family: "Interstate", sans-serif;
+  font-family: "Interstate" !important, sans-serif;
   font-weight: bold;
 	font-style: normal;
   color: #19191a;
@@ -423,7 +423,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Interstate", serif;
+  font-family: "Interstate", sans-serif;
+   font-weight: "300";
 }
 
 a {
@@ -435,7 +436,7 @@ img {
 }
 
 input, textarea, select {
-  font-family: "Interstate", serif;
+  font-family: "Interstate", sans-serif;
   font-size: 1.6rem;
 }
 
