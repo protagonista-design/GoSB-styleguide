@@ -33,7 +33,7 @@ header {
 
 .cd-logo {
   /* logo box style */
-  background-color: #5f8ee4;
+  background-color: #1a428a;
   width: 120px;
 }
 @media only screen and (min-width: 1024px) {
@@ -825,7 +825,7 @@ section:nth-of-type(6) h2::before {
   padding: .6em 0;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
-  background: #5f8ee4;
+  background: #1a428a;
 }
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
   background: #759de8;
