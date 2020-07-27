@@ -3,12 +3,44 @@
 xBackground 
 
 -------------------------------- */
+
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-Bold.woff2') format('woff2'),
+        url(' Interstate-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url(' Interstate-Regular.woff2') format('woff2'),
+        url(' Interstate-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url(' Interstate-Light.woff2') format('woff2'),
+        url(' Interstate-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
   /* this is the page background */
   background-color: #ffffff;
 }
 
 /* -------------------------------- 
+
+
 
 xPatterns
 
@@ -119,7 +151,9 @@ xTypography
 
 -------------------------------- */
 h1, h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Interstate", sans-serif;
+  font-weight: bold;
+	font-style: normal;
   color: #19191a;
 }
 
@@ -128,6 +162,7 @@ h1 {
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em;
+  
 }
 @media only screen and (min-width: 768px) {
   h1 {
@@ -183,7 +218,7 @@ xButtons
   box-shadow: none;
   border-radius: .25em;
   font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Interstate", sans-serif;
   color: #ffffff;
   padding: .6em 2.2em;
   cursor: pointer;
@@ -388,7 +423,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Merriweather", serif;
+  font-family: "Interstate", serif;
 }
 
 a {
@@ -400,7 +435,7 @@ img {
 }
 
 input, textarea, select {
-  font-family: "Merriweather", serif;
+  font-family: "Interstate", serif;
   font-size: 1.6rem;
 }
 
@@ -976,3 +1011,5 @@ section:nth-of-type(6) h2::before {
 .no-csstransitions .cd-select::after {
   display: none;
 }
+
+
